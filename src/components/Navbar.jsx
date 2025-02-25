@@ -1,7 +1,9 @@
 import React from "react";
 import "./navbar.css";
+import useDarkMode from "../hooks/useDarkMode";
 
 const Navbar = () => {
+  const [isDarkMode,setIsDarkMode]=useDarkMode();
   return (
     <div className="navbar">
       <div className="navbar-name">A</div>
@@ -9,6 +11,10 @@ const Navbar = () => {
         <a href="#" className="navbar-link-item">Skills</a>
         <a href="#" className="navbar-link-item">Projects</a>
         <a href="#" className="navbar-link-item">Hire me</a>
+
+        <button onClick={()=>setIsDarkMode(!isDarkMode)}>
+          sss
+        </button>
         
       </div>
     </div>
