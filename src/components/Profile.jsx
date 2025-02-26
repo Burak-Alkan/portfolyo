@@ -9,11 +9,11 @@ const Profile = () => {
         <div className="profile-info">
           <h4>Profile</h4>
           <ul>
-            <li><strong>Doğum tarihi:</strong> 24.03.1996</li>
-            <li><strong>İkamet Şehri:</strong> Ankara</li>
-            <li><strong>Eğitim Durumu:</strong> Hacettepe Ünv. Biyoloji</li>
-            <li><strong>Lisans,</strong> 2016</li>
-            <li><strong>Tercih Ettiği Rol:</strong> Frontend, UI</li>
+            <li><strong>Doğum tarihi:</strong> 12.07.1998</li>
+            <li><strong>İkamet Şehri:</strong> Samsun</li>
+            <li><strong>Eğitim Durumu:</strong> Atatürk Ünv. İşletme</li>
+            <li><strong>Lisans,</strong> 2017</li>
+            <li><strong>Tercih Ettiği Rol:</strong> Frontend</li>
           </ul>
         </div>
 

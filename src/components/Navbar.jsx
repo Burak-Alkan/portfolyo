@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+
 import "./navbar.css";
 import useDarkMode from "../hooks/useDarkMode";
 import { useContext } from "react";
-import { ContextLanguage } from "../context/LanguageContexts";
+
 const Navbar = () => {
   const [isDarkMode,setIsDarkMode]=useDarkMode();
 
@@ -21,7 +21,7 @@ const Navbar = () => {
         <a href="#" className="navbar-link-item">Hire me</a>
 
         <button onClick={()=>setIsDarkMode(!isDarkMode)}>
-          sss
+        on/of
         </button>
 
         <button onClick={changeLanguage}>

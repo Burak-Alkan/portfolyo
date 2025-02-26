@@ -7,16 +7,14 @@ const Introduce = () => {
       <div className="introduce-section">
         <div className="introduce-name">
           <span className="introduce-line"></span>
-          <span className="introduce-text">Almila Su</span>
+          <span className="introduce-text">Burak Alkan</span>
         </div>
         <h1 className="introduce-title">
           Creative thinker <br />
           Minimalism lover
         </h1>
         <p className="introduce-description">
-          Hi, I'm Almila. I'm a full-stack developer. If you are looking for a
-          Developer who to craft solid and scalable frontend products with great
-          user experiences. Let’s shake hands with me.
+        Hi, I'm Burak. I'm a full-stack developer. If you're looking for a developer to build robust and scalable frontend solutions with an exceptional user experience, let's connect!
         </p>
 
         <div className="introduce-links">
