@@ -1,0 +1,108 @@
+{
+   "en": {
+     "skills": "Skills",
+     "projects": "Projects",
+     "hire_me": "Hire Me",
+     "name": "Burak Alkan",
+     "description": "As a newly graduated business student, I am taking full stack developer training at Workintech to gain a strong place in the technology and software world. I aim to produce effective and sustainable solutions in the code world with my analytical thinking and problem-solving skills. I am a person who is prone to teamwork, strong in communication and open to learning. I look forward to developing user-oriented and innovative projects by combining backend and frontend technologies, and aim to produce technology solutions by understanding the needs of the business world.",
+     "resume": "Resume",
+     "github": "GitHub",
+    "linkedin": "LinkedIn",
+     "change_theme": "Switch Theme To",
+     "dark":"Dark",
+     "light":"Light",
+     "change_language": "Turkish",
+     "title": "Full-Stack Developer",
+     "birth_date": "12/07/1998",
+     "birth_date_words": "Birth Date",
+     "city": "Samsun, Turkey",
+     "city_words": "City",
+     "education": "Atatürk University-Department of Business Administration",
+     "education_words": "Education",
+     "license": "Bachelor's Degree",
+     "license_words": "Licence",
+     "role": "Business",
+     "about_me": "About Me",
+     "profile": "Profile",
+     "experience": "Experience",
+     "contact": "Contact",
+     "email": "Email",
+     "phone": "Phone",
+     "address": "Address",
+     "languages": "Languages",
+     "technologies": "Technologies",
+     "frameworks": "Frameworks",
+     "tools": "Tools",
+     "hobbies": "Hobbies",
+     "soft_skills": "Soft Skills",
+     "work_experience": "Work Experience",
+     "skills_list": [
+       {
+         "name": "JavaScript",
+         "description": "JavaScript is a powerful programming language used for creating interactive and dynamic web applications."
+       },
+       {
+         "name": "React.js",
+         "description": "React.js is a popular JavaScript library for building user interfaces, focusing on component-based architecture."
+       },
+       {
+         "name": "Node.js",
+         "description": "Node.js is a runtime environment that allows executing JavaScript code outside the browser, commonly used for backend development."
+       }
+     ]
+   },
+   "tr": {
+     "skills": "Yetenekler",
+     "projects": "Projeler",
+     "hire_me": "Beni İşe Al",
+     "name": "Burak Alkan",
+     "description": "Yeni mezun bir işletme öğrencisi olarak, teknoloji ve yazılım dünyasında güçlü bir yer edinmek için Workintech’te full stack developer eğitimi alıyorum. Analitik düşünme ve problem çözme yeteneklerimle kod dünyasında etkili ve sürdürülebilir çözümler üretmeyi hedefliyorum. Takım çalışmasına yatkın, iletişimde güçlü ve öğrenmeye açık biriyim. Backend ve frontend teknolojilerini bir araya getirerek kullanıcı odaklı ve yenilikçi projeler geliştirmek için sabırsızlanıyor ve iş dünyasının ihtiyaçlarını anlayarak teknoloji çözümleri üretmeyi amaçlıyorum.",
+     "resume": "Özgeçmiş",
+     "github": "GitHub",
+     "linkedin": "LinkedIn",
+     "change_theme": "Temayı Değiştir",
+     "change_language": "English",
+     "title": "Full-Stack Geliştirici",
+     "birth_date": "12/07/1998",
+     "dark":"Koyu",
+     "light":"Açık",
+     "birth_date_words": "Doğum Tarihi",
+     "city": "Samsun, Turkey",
+     "city_words": "Şehir",
+     "education": "Atatürk Üniversitesi-İşletme Bölümü",
+     "license": "Lisans Diploması",
+     "education_words": "Eğitim",
+     "license_words": "Lisans",
+     "role": "İşletme",
+     "about_me": "Hakkımda",
+     "profile": "Profil",
+     "experience": "Deneyim",
+     "contact": "İletişim",
+     "email": "E-posta",
+     "phone": "Telefon",
+     "address": "Adres",
+     "languages": "Diller",
+     "technologies": "Teknolojiler",
+     "frameworks": "Frameworkler",
+     "tools": "Araçlar",
+     "hobbies": "Hobiler",
+     "soft_skills": "Kişisel Beceriler",
+     "work_experience": "İş Deneyimi",
+     
+
+     "skills_list": [
+       {
+         "name": "JavaScript",
+         "description": "JavaScript, etkileşimli ve dinamik web uygulamaları oluşturmak için kullanılan güçlü bir programlama dilidir."
+       },
+       {
+         "name": "React.js",
+         "description": "React.js, bileşen tabanlı mimariye odaklanan popüler bir JavaScript kütüphanesidir ve kullanıcı arayüzleri geliştirmek için kullanılır."
+       },
+       {
+         "name": "Node.js",
+         "description": "Node.js, JavaScript kodunun tarayıcı dışında çalıştırılmasını sağlayan bir çalışma ortamıdır ve genellikle arka uç geliştirme için kullanılır."
+       }
+     ]
+   }
+ }

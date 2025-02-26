@@ -1,8 +1,8 @@
-
+import React, { useEffect, useState } from "react";
 import "./navbar.css";
 import useDarkMode from "../hooks/useDarkMode";
 import { useContext } from "react";
-
+import { ContextLanguage } from "../context/LanguageContexts";
 const Navbar = () => {
   const [isDarkMode,setIsDarkMode]=useDarkMode();
 
@@ -10,22 +10,27 @@ const Navbar = () => {
   
   const changeLanguage=()=>
   {
-    dilDegistir("tr")
+    dilDegistir()
   }
+  const toggleTheme=()=>
+  {
+  setIsDarkMode(!isDarkMode)
+  }
+
   return (
     <div className="navbar">
-      <div className="navbar-name">A</div>
-      <div className="navbar-links">
-        <a href="#" className="navbar-link-item">{content.skils}</a>
-        <a href="#" className="navbar-link-item">Projects</a>
-        <a href="#" className="navbar-link-item">Hire me</a>
+      <div className="navbar-name">B</div>
+      <div className="navbar-links" >
+        <a href="#" id="links_navbar" className="navbar-link-item">{content.skills}</a>
+        <a href="#" id="links_navbar" className="navbar-link-item">{content.projects}</a>
+        <a href="#" id="links_navbar" className="navbar-link-item">{content.hire_me}</a>
 
-        <button onClick={()=>setIsDarkMode(!isDarkMode)}>
-        on/of
+        <button onClick={toggleTheme}>
+        {isDarkMode ? `${content.change_theme} ${content.light} `:`${content.change_theme} ${content.dark} `}
         </button>
 
         <button onClick={changeLanguage}>
-          dili değistir
+        {content.change_language}
         </button>
         
       </div>
